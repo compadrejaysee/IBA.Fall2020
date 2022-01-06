@@ -1,0 +1,5 @@
+grep -R -P "\d\d\d-\d\d\d-\d\d\d\d" numbers1/ --exclude=out.gold > numbers1.output
+grep -R -P "\d{3}(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold > numbers2.output
+grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold > numbers3.output
+grep -R -P "(\(\d{3}\))|(\d{3})(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold > numbers4.output
+grep -R -P "(\(\d{3}\)\d{3}(-)*\d{4})|(\d\d\d\d\d\d\d\d\d\d)|(\d{3}-\d{3}-\d{4})" numbers5/ --exclude=out.gold > numbers5.output

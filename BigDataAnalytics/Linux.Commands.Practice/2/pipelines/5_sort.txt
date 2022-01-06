@@ -1,0 +1,10 @@
+Baz  0
+Jill 1
+Bill 2
+Mir  3
+Mar  5
+Foo  9
+Mary 10
+Roe  10
+Bar  12
+Adam 20

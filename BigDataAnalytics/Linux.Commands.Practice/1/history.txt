@@ -1,0 +1,323 @@
+  402  vi links.txt
+  403  echo love>>sample.txt
+  404  echo thee>>sample.txt
+  405  echo to>>sample.txt
+  406  echo eternal>>sample.txt
+  407  ls
+  408  cd /Documents/Exercise
+  409  cd /Documents
+  410  cd Documents
+  411  ls
+  412  cd Scripting
+  413  vi testShakespeare.sh
+  414  chmod 700 testShakespeare.sh
+  415  vi /etc/bash.bashrc
+  416  nano ~/.bashrc
+  417  nano testShakespeare.sh
+  418  ./testShakespeare.sh
+  419  nano testShakespeare.sh
+  420  ./testShakespeare.sh
+  421  nano testShakespeare.sh
+  422  ./testShakespeare.sh
+  423  nano testShakespeare.sh
+  424  ./testShakespeare.sh
+  425  nano testShakespeare.sh
+  426  ./testShakespeare.sh
+  427  nano testShakespeare.sh
+  428  ./testShakespeare.sh
+  429  nano testShakespeare.sh
+  430  ./testShakespeare.sh
+  431  nano testShakespeare.sh
+  432  ./testShakespeare.sh
+  433  nano testShakespeare.sh
+  434  ./testShakespeare.sh
+  435  nano testShakespeare.sh
+  436  ./testShakespeare.sh
+  437  nano testShakespeare.sh
+  438  ./testShakespeare.sh
+  439  nano testShakespeare.sh
+  440  love ./testShakespeare.sh
+  441  ./testShakespeare.sh love
+  442  nano testShakespeare.sh
+  443  ./testShakespeare.sh love
+  444  nano testShakespeare.sh
+  445  ./testShakespeare.sh love
+  446  nano testShakespeare.sh
+  447  ./testShakespeare.sh love
+  448  nano testShakespeare.sh
+  449  ./testShakespeare.sh love
+  450  nano testShakespeare.sh
+  451  ./testShakespeare.sh love
+  452  nano testShakespeare.sh
+  453  ./testShakespeare.sh love
+  454  history
+  455  history>>exerciseHistory1.txt
+  456  ls
+  457  grep "^1" \ /phone-numbers 
+  458  grep "^1" \ phone-numbers 
+  459  grep "^1"  /phone-numbers 
+  460  grep "^1"  /phone-numbers
+  461  ls
+  462  grep "^1" \ /phone-numbers
+  463  cd phone-numbers
+  464  cd..
+  465  cd ..
+  466  grep "^1" \ /phone-numbers/*
+  467  grep "^1" \ /phone-numbers/* > output.txt
+  468  grep "^1" \ /phone-numbers/* 2> output.txt
+  469  grep 'a' /phone-numbers
+  470  grep 'a' /phone-numbers/
+  471  grep -i 'a' /phone-numbers/
+  472  grep -i 'a' /test1/
+  473  grep -i 'a' /test1
+  474  cd /phone-numbers
+  475  cd /phone-numbers/
+  476  ls
+  477  cd phone-numbers
+  478  grep -i 'a' *
+  479  grep -r 'a' *
+  480  grep -r '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' *
+  481  grep -r '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >output.txt
+  482  grep -r --exclude-dir={\*out.gold} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >output.txt
+  483  grep -r --exclude={\*out.gold} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >output.txt
+  484  grep -r --exclude={\*out.gold} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  485  grep -r --exclude={\*\out.gold} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  486  cd number1
+  487  cd numbers1
+  488  grep -r --exclude={\*golden.txt} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  489  grep -r --exclude={\*out.gold.txt} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  490  grep -r --exclude={out.gold.txt} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  491  grep -r --exclude={/out*} '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  492  grep -r --exclude="*.{gold}" '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  493  grep -r --exclude="*.{gold.txt}" '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  494  grep -r --exclude="out.gold.txt" '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  495  grep --exclude="out.gold.txt" '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  496  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  497  history>exercise2.txt
+  498  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)\?[0-9]\{3\}\?[0-9]\{4\}' *
+  499  cd ..
+  500  cd numbers2
+  501  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)\?[0-9]\{3\}\?[0-9]\{4\}' *
+  502  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)\?[0-9]\{3\}\?[0-9]\{4\}' * >result.txt
+  503  cd ..
+  504  cd numbers3
+  505  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)\?[0-9]\{3\}\?[0-9]\{4\}' * >result.txt
+  506  cd ..
+  507  cd numbers4
+  508  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)\?[0-9]\{3\}\?[0-9]\{4\}' * >result.txt
+  509  cd ..
+  510  cd numbers5
+  511  grep --exclude="out.*" '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\?[0-9]\{3\}[-]\?[0-9]\{4\}' * >result.txt
+  512  history>excersize2.txt
+   514  clear
+  515  egrep -i '\w+(.)\1' group-references-1
+  516  egrep -i '\w+(.)\1' group-references-1>result.txt
+  517  egrep -i '\w+(.)\1' group-references-2>result.txt
+  518  egrep -i '\w+(.)\' group-references-2
+  519  egrep -i '\w+(.)\{2}' group-references-2
+  520  egrep -i '\w+(.)\{2}' group-references-1
+  521  egrep -i '\w+(.)\1{2}' group-references-1
+  522  egrep -i '\w+(.)\1' group-references-1
+  523  egrep -i '\w+(.)\1{2}' group-references-1
+  524  egrep -i '\w+(.)\1{3}' group-references-1
+  525  egrep -i '\w+(.)\2' group-references-1
+  526  egrep -i '\w+(.)\1\{2}' group-references-1
+  527  egrep -i '\w+(.)\1' group-references-2
+  528  egrep -i '\w+(.)\4' group-references-2
+  529  egrep -i '[a-zA-Z]\a-z{2,}' group-references-1
+  530  egrep -i '[a-z]\(.){2,}' group-references-1
+  531  egrep -i '(.){2,}' group-references-1
+  532  egrep -i '(.){2,}' group-references-2
+  533  egrep -i '(.){2,2}' group-references-2
+  534  egrep -i '(.)(.*\1){1}' group-references-1
+  535  egrep -i '(.)(.*\1){1}' group-references-2
+  536  egrep -i '(.).*\1{1}' group-references-2
+  537  egrep -i '(.).*\1{1}' group-references-1
+  538  egrep -i '.*\1{1}' group-references-1
+  539  egrep -i '*\1{1}' group-references-1
+  540  egrep -i '1{1}' group-references-1
+  541  egrep -i '(.)\1{1}' group-references-1
+  542  egrep -i '(.)\1{1}' group-references-2
+  543  egrep -i '(.)\1{1}' group-references-3
+  544  /
+  545  cd..
+  546  cd ..
+  547  cd .
+  548  cd ..
+  549  cd /
+  550  history>exercise2match.txt
+  551  cd Documents
+  552  cd Document
+  553  ls
+  554  cd root
+  555  cd home
+  556  cd Document
+  557  ls
+  558  cd ramsha
+  559  ls
+  560  history>exercise2match.txt
+  561  cd Downloads/grep-exercises/grep-exercises
+  562  ls
+  563  cd match-only-one
+  564  egrep -i '(.)\1{1}' lookarounds1.txt
+  565  egrep -i '(.)\1{1}' lookarounds-1.txt
+  566  ls
+  567  egrep -i '(.)\1{1}' lookarounds-1
+  568  egrep '(+)\d{12}' lookarounds-1
+  569  egrep '(+)\d{12\}' lookarounds-1
+  570  grep '(+)\d{12\}' lookarounds-1
+  571  egrep '(+)\d{12\}' lookarounds-1
+  572  egrep '\(+)\d{12\}' lookarounds-1
+  573  egrep '\[+]\d{12\}' lookarounds-1
+  574  egrep '\[+]\([0-9]\{12\})' lookarounds-1
+  575  egrep '\[+]\([0-9]\{12\})'* lookarounds-1
+  576  egrep '\([0-9]\{12\})'* lookarounds-1
+  577  grep '\([0-9]\{12\})'* lookarounds-1
+  578  grep '([0-9]\{12\})'* lookarounds-1
+  579  grep -o '[0-9]\{12\}' lookarounds-1
+  580  grep -o '[+][0-9]\{12\}' lookarounds-1
+  581  grep -o '[+][0-9]\{12\}' lookarounds-2
+  582  grep -o '[0-9]\{12\}' lookarounds-2
+  583  grep -o '[0-9]\{12\}' lookarounds-3
+  584  grep -o '[0-9]\{10\}' lookarounds-3
+  585  history>exercisecomplete.txt
+  587  cd /
+  588  ls
+  589  cd usr
+  590  cd bin
+  591  ls
+  592  chmod +ux read-input.py
+  593  chmod 777 read-input.py
+  594  ./read-input.py
+  595  python
+  596  python -v
+  597  python3 -v
+  598  python read-input.py
+  599  sudo ln -s /usr/bin/python3.8 /usr/bin/python2 && sudo ln -s /usr/bin/python3 /usr/bin/python
+  600  ./read-input.py
+  601  ./read-input.py < nums-0-999
+  602  nano read-input.py
+  603  ./read-input.py < nums-0-999
+  604  nano read-input.py
+  605  ./read-input.py < nums-0-999
+  606  cd home
+  607  cd ..
+  608  ls
+  609  ls > ls-output.txt
+  610  cat ls-output.txt
+  611  ls > ls-output.txt
+  612  cat ls-output.txt
+  613  cat ls-output
+  614  cat < ls-output
+  615  cat < ls-output.txt > ls-input.txt
+  616  cat ls-output
+  617  cat ls-output.txt
+  618  cat < ls-output.txt >> ls-input.txt
+  619  cat ls-output.txt
+  620  echo ls-output.txt < ls-out.txt
+  621  echo ls-output.txt > ls-out.txt
+  622  cat ls-output.txt
+  623  head -3 table.txt
+  624  clear
+  625  head -3 table
+  626  tail -3 table
+  627  l -2 table
+  628  cat -l 2 table
+  629  awk '{ print $2 }' table
+  630  awk "{print NF}" table
+  631  awk '{print $1 $2}' table
+  632  tr -d table
+  633  tr -d '\r' table
+  634  tr --help
+  635  sed -n '2p' table
+  636  sed -n '2p' '3p' table
+  637  sed -n '2p && 3p' table
+  638  sed -n '2,3p' table
+  639  cat bad-new-line
+  640  cat -s bad-new-line
+  641  sort pumpkinsizes
+  642  tail -1 pumpkinsizes
+  643  sort -n pumpkinsizes
+  644  sort -nr pumpkinsizes
+  645  sort -k 2n pumpkinsizes
+  646  sort -k2 2n pumpkinsizes
+  647  sort -k 2n pumpkinsizes
+  648  cat -k 2n pumpkinsizes
+  649  sort -k 3n pumpkinsizes
+  650  sort -k3n pumpkinsizes
+  651  sort -nk2 pumpkinsizes
+  652  sort -nk3 pumpkinsizes
+  653  sort -k3 pumpkinsizes
+  654  sort -u -k3 pumpkinsizes
+  655  ls -l pumpkinsizes | sort -nk2
+  656  cat pumpkinsizes | sort -nk2
+  657  cat pumpkinsizes | cut -d
+  658  vi pumpkin
+  659  nano pumpkin
+  660  ./pumpmkin
+  661  ./pumpkin
+  662  chmod 700 pumpkin
+  663  ./pumpkin
+  664  nano pumpkin
+  665  ./pumpkin
+  666  nano pumpkin
+  667  ./pumpkin
+  668  nano pumpkin
+  669  ./pumpkin
+  670  nano pumpkin
+  671  sort -n -t'|' -nk2 pumpkinsizes
+  672  head +1 pumpkinsizes
+  673  tail +1 pumpkinsizes
+  674  tail -1 pumpkinsizes
+  675  tail +1 pumpkinsizes
+  676  head +2 pumpkinsizes
+  677  head -2 pumpkinsizes
+  678  head -n 1 pumpkinsizes.txt && tail -n +2 pumpkinsizes.txt | sort -k2 -t'|')
+  679  head -n 1 pumpkinsizes.txt && tail -n +2 pumpkinsizes.txt | sort -k2 -t'|'
+  680  head -n 1 pumpkinsizes && tail -n +2 pumpkinsizes | sort -k2 -t'|'
+  681  sort -n -t'|' -nk2 pumpkinsizes
+  682  tail +2 sort -n -t'|' -nk2 pumpkinsizes
+  683  (head -n 1 pumpkinsizes && tail -n +2 pumpkinsizes | sort -k2 -t'|')
+  684  tail +2 && sort -n -t'|' -nk2 pumpkinsizes
+  685  tail -n +2 && sort -n -t'|' -nk2 pumpkinsizes
+  686  tail -n +2 pumpkinsizes && sort -n -t'|' -nk2 pumpkinsizes
+  687  tail -n +3 pumpkinsizes && sort -n -t'|' -nk2 pumpkinsizes
+  688  tail -n +3 pumpkinsizes sort -n -t'|' -nk2 pumpkinsizes
+  689  tail -n +3 sort -n -t'|' -nk2 pumpkinsizes
+  690  tail -n +3 pumpmkinsizes | sort -n -t'|' -nk2 pumpkinsizes
+  691  tail -n +3 pumpkinsizes | sort -n -t'|' -nk2 pumpkinsizes
+  692  tail -n +3 pumpkinsizes > pumpkin
+  693  cat pumpkin
+  694  sort -n -t'|' -nk2 pumpkin
+  695  cat pumpkin
+  696  sort -n -t'|' -nk2 pumpkin > pumpkin
+  697  cat pumpkin
+  698  sort -n -t'|' -nk2 pumpkin > pumpkin
+  699  tail -n +3 pumpkinsizes && sort -n -t'|' -nk2 > pumpkin 
+  700  tail -n +3 pumpkinsizes && sort -n -t'|' -nk2 > pumpkin .txt
+  701  tail -n +3 pumpkinsizes && sort -n -t'|' -nk2 > pumpkin.txt
+  702  tail -n +3 pumpkinsizes > pumpkin.txt
+  703  cat pumpkin.txt
+  704  sort -n -t'|' -nk2 pumpkin > pumpkin
+  705  cat pumpkin.txt
+  706  sort -n -t'|' -nk2 pumpkin && head -2 pumpkin
+  707  sort -n -t'|' -nk2 pumpkin.txt && head -2 pumpkin.txt
+  708  (head -n 1 pumpkisizes && tail -n +2 pumpkinsizes  | sort -k2 -t'|') > p_sorted.txt
+  709  (head -n 1 pumpkinsizes && tail -n +2 pumpkinsizes  | sort -k2 -t'|') > p_sorted.txt
+  710  (head -n 3 pumpkinsizes && tail -n +2 pumpkinsizes  | sort -k2 -t'|') > p_sorted.txt
+  711  (tail -n +3 pumpkinsizes && tail -n +2 pumpkinsizes  | sort -k2 -t'|') > p_sorted.txt
+  712  (tail -n +2 pumpkinsizes  | sort -k2 -t'|') > p_sorted.txt
+  713  (tail -n +3 pumpkinsizes  | sort -nk2 -t'|') > p_sorted.txt
+  714  cat p_sorted
+  715  cat p_sorted.txt
+  716  head -n -2 p_sorted.txt
+  717  head -2 p_sorted.txt
+  718  tail -3 p_sorted.txt
+  719  (sort -o shakes.txt | uniq shakes.txt) > w_sorted.txt
+  720  sort shakes.txt | uniq -c | sort -n > w_sorted.txt
+  721  wc - shakes.txt
+  722  wc -l shakes.txt
+  723  wc -w shakes.txt
+  724  history>h1.txt
+  
+  

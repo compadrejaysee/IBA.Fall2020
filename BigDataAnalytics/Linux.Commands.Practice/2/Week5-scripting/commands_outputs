@@ -1,0 +1,12 @@
+./wordcount.sh shakes.txt love  --> 5
+./wordcount.sh shakes.txt thee  --> 2
+./wordcount.sh shakes.txt to  --> 14
+./wordcount.sh shakes.txt eternal --> 2
+
+
+./wordcount2.sh shakes.txt love thee to eternal
+
+love  --->        5      41     201
+thee  --->        2      18      89
+to  --->       14     120     602
+eternal  --->        2      15      83

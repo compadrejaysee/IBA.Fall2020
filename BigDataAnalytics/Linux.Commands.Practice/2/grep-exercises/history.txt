@@ -1,0 +1,652 @@
+    1  sudo apt-get install mlocate
+    2  pwd
+    3  ls
+    4  ls usr/bin
+    5  ls /usr/bin
+    6  cd Documents
+    7  cd /
+    8  pwd
+    9  cd \
+   10  pwd
+   11  cd Documents
+   12  vi test.txt
+   13  cat test.txt
+   14  vi test.txt
+   15  cat text.txt
+   16  cat test.txt
+   17  cd \
+   18  mkdir testdir
+   19  cp Documents/test.txt testdir
+   20  ls
+   21  cd testdir
+   22  ls
+   23  rm *
+   24  ls
+   25  cd /
+   26  ls
+   27  cp -r /home/babar/Documents /home/babar/testdir
+   28  ls /home/babar/testdir
+   29  ls /home/babar/testdir/Documents
+   30  cd /home/babar/Documents
+   31  mv test.txt newtest.txt
+   32  ls
+   33  cd \
+   34  ls
+   35  mv testdir/ newtestdir
+   36  ls
+   37  rmdir newtestdir
+   38  rmdir newtestdir/
+   39  cd newtestdir
+   40  ls
+   41  cd Documents
+   42  ls
+   43  rm *
+   44  ls
+   45  cd .
+   46  cd ./
+   47  cd ..
+   48  rmdir Documents
+   49  ls
+   50  cd ..
+   51  rmdir newtestdir
+   52  ls
+   53  cd Documents
+   54  ls
+   55  touch oldtest.txt
+   56  ls
+   57  rm *
+   58  ls
+   59  echo 'I am textfile 1' >> file1.txt
+   60  ls
+   61  ln file1.txt file2.txt
+   62  ls
+   63  cat file1.txt
+   64  cat file2.txt
+   65  vi file2.txt
+   66  cat file2.txt
+   67  cat file1.txt
+   68  unlink file1.txt
+   69  cat "hello there" >>file2.txt
+   70  echo "Hello There" >> file2.txt
+   71  cat file2.txt
+   72  cat file1.txt
+   73  ls
+   74  sudo passwd
+   75  su
+   76  head -3 var/og/syslog
+   77  head -3 var/log/syslog
+   78  head -3 /var/log/syslog
+   79  tail -3 /var/log/syslog
+   80  ls
+   81  chmod u=rwx, g=rx, o=r file2.txt
+   82  chmod u=rwx,g=rx,o=r file2.txt
+   83  ls -l file2.txt
+   84  chmod 740 file2.txt
+   85  ls -l file2.txt
+   86  chmod 000 file2.txt
+   87  ls -l file2.txt
+   88  cat file2.txt
+   89  chmod 777 file2.txt
+   90  ls -l file2.txt
+   91  ls -l
+   92  sudo chown root file.txt
+   93  sudo chown root file2.txt
+   94  ls -l
+   95  md5sum file2.txt
+   96  echo "another line" >> file2.txt
+   97  md5sum file2.txt
+   98  sudo updatedb
+   99  locate -i "chromium"
+  100  locate -i file2.txt
+  101  df -h
+  102  cd ..
+  103  df -sh /home/Documents/file2.txt
+  104  du -sh /home/Documents/file2.txt
+  105  du -sh Documents/file2.txt
+  106  free -h
+  107  sudo apt-get install JED
+  108  sudo apt-get install jed
+  109  sudo apt-get update
+  110  sudo apt-get install zip unzip
+  111  cd Documents
+  112  rm *
+  113  echo 'file1" > file1.txt
+  114  x
+  115  "
+  116  exit
+  117  1
+  118  3
+  119  .
+  120  /
+  121  <<
+  122  rrr
+  123  >
+  124  zzz
+  125  echo "file1" >> file1.txt
+  126  echo "file2" >> file2.txt
+  127  echo "file3" >> file3.txt
+  128  echo "file4" >> file4.txt
+  129  echo "file5" >> file5.txt
+  130  ls
+  131  zip -9r filearchive.zip file1.txt file2.txt file3.txt file4.txt file5.txt
+  132  ls
+  133  rm file1.txt file2.txt file3.txt file4.txt file5.txt
+  134  ls
+  135  unzip filearchive.zip
+  136  ls
+  137  tar -cvf filearchivetar *
+  138  ls
+  139  rm filearchive.tar
+  140  rm filearchive.zip
+  141  ls
+  142  tar -cvf filearchive.tar *
+  143  ls
+  144  tar cvzf filearchive.tar.gz *
+  145  ls
+  146  tar -xvf filearchive1.tar
+  147  tar -xvf filearchive.tar
+  148  tar -xvf filearchive.tar.gz
+  149  ls
+  150  tar -tvf filearchive.tar
+  151  tar -tvf filearchive.tar.gz
+  152  sudo apt-get install net-tools
+  153  cd ..
+  154  ifconfig -a
+  155  uname -a
+  156  man ifconfig
+  157  ping www.google.com
+  158  echol "Line1" >> file.txt
+  159  echo "Line1" >> file.txt
+  160  echo "Line2" >> file.txt
+  161  echo "Line3" >> file.txt
+  162  wc -l file.txt
+  163  sudo apt-get install tree
+  164  tree
+  165  cat file.txt
+  166  grep Line file.txt
+  167  grep e3 file.txt
+  168  grep -n Line file.txt
+  169  cat file.txt | grep Line
+  170  grep ^line file.txt
+  171  grep ^Line file.txt
+  172  grep .L file.txt
+  173  grep $e file.txt
+  174  grep e$ file.txt
+  175  grep 1$ file.txt
+  176  grep .e file.txt
+  177  date
+  178  uptime
+  179  ps -a
+  180  ps -a | grep ping
+  181  kill -9 19509
+  182  cd Documents
+  183  history >> history.txt
+  184  vi /etc/bash.bashrc
+  185  cd Documents
+  186  nano conversation.sh
+  187  ls
+  188  ls -l
+  189  bash conversation.sh
+  190  nano checkint.sh
+  191  tRun tss GCS
+  192  cd Documents
+  193  ./checkint.sh "BABAR"
+  194  chmod 700 checkint.sh
+  195  ./checkint.sh "BABAR"
+  196  nano checkint.sh
+  197  ./checkint.sh "BABAR"
+  198  nano checkint.sh
+  199  ./checkint.sh "BABAR"
+  200  nano checkint.sh
+  201  ./checkint.sh "BABAR"
+  202  ./checkint.sh 2
+  203  ./checkint.sh "2"
+  204  nano checkint.sh
+  205  ./checkint.sh "2"
+  206  ./checkint.sh 2
+  207  nano checkint.sh
+  208  ls -l --block-size=M
+  209  ls -l --block-size=K
+  210  nano filecheck.sh
+  211  pwd
+  212  nano filecheck.sh
+  213  chmod 700 filecheck.sh
+  214  ./filecheck.sh
+  215  nano filecheck.sh
+  216  ./filecheck.sh
+  217  nano filecheck.sh
+  218  ./filecheck.sh
+  219  nano filecheck.sh
+  220  ./filecheck.sh
+  221  nano filecheck.sh
+  222  ./filecheck.sh
+  223  nano filecheck.sh
+  224  ./filecheck.sh
+  225  nano filecheck.sh
+  226  ./filecheck.sh
+  227  nano filecheck.sh
+  228  ./filecheck.sh
+  229  nano filecheck.sh
+  230  ./filecheck.sh
+  231  ls
+  232  nano filecheck.sh
+  233  ./filecheck.sh
+  234  nano filecheck.sh
+  235  ./filecheck.sh
+  236  nano filecheck.sh
+  237  ./filecheck.sh
+  238  nano filecheck.sh
+  239  ./filecheck.sh
+  240  nano filecheck.sh
+  241  ./filecheck.sh
+  242  nano filecheck.sh
+  243  ./filecheck.sh
+  244  nano filecheck.sh
+  245  ./filecheck.sh
+  246  nano filecheck.sh
+  247  ./filecheck.sh
+  248  nano filecheck.sh
+  249  nano quad.sh
+  250  chmod 700 quad.sh
+  251  ./quad.sh
+  252  chmod 700 quad.sh
+  253  nano quad.sh
+  254  ./quad.sh 2 4 6
+  255  nano quad.sh
+  256  ./quad.sh 2 4 6
+  257  nano quad.sh
+  258  ./quad.sh 2 4 6
+  259  nano quad.sh
+  260  ./quad.sh 2 4 6
+  261  nano quad.sh
+  262  ./quad.sh 2 4 6
+  263  nano quad.sh
+  264  ./quad.sh 2 4 6
+  265  nano quad.sh
+  266  ./quad.sh 2 4 6
+  267  nano quad.sh
+  268  ./quad.sh 2 4 6
+  269  nano quad.sh
+  270  ./quad.sh 2 4 6
+  271  nano quad.sh
+  272  ./quad.sh 2 4 6
+  273  nano quad.sh
+  274  ./quad.sh 2 4 6
+  275  nano quad.sh
+  276  ./quad.sh 2 4 6
+  277  nano quad.sh
+  278  ./quad.sh 2 4 6
+  279  nano quad.sh
+  280  ./quad.sh 2 4 6
+  281  nano quad.sh
+  282  ./quad.sh 2 4 6
+  283  nano quad.sh
+  284  ./quad.sh 2 4 6
+  285  nano quad.sh
+  286  ./quad.sh 2 4 6
+  287  nano quad.sh
+  288  ./quad.sh 2 4 6
+  289  ./quad.sh 6 2 4
+  290  ./quad.sh 2 6 2
+  291  nano quad.sh
+  292  ./quad.sh 2 6 2
+  293  nano quad.sh
+  294  ./quad.sh 2 6 2
+  295  nano quad.sh
+  296  ./quad.sh 2 6 2
+  297  nano quad.sh
+  298  ./quad.sh 2 6 2
+  299  nano quad.sh
+  300  ./quad.sh 2 6 2
+  301  nano quad.sh
+  302  ./quad.sh 2 6 2
+  303  nano quad.sh
+  304  ./quad.sh 2 6 2
+  305  nano quad.sh
+  306  ./quad.sh 2 6 2
+  307  nano quad.sh
+  308  ./quad.sh 2 6 2
+  309  nano hname.sh
+  310  chmod 700 hname.sh
+  311  ./hname.sh
+  312  hostname
+  313  nano hname.sh
+  314  hostname
+  315  cd /home/babar/duc
+  316  $?
+  317  nano checkdir.sh
+  318  chmod 700  checkdir.sh
+  319  ./checkdir.sh
+  320  ./checkdir.sh /home/babar/Documents
+  321  nano checkdir.sh
+  322  ./checkdir.sh /home/babar/Documents
+  323  nano checkdir.sh
+  324  ./checkdir.sh /home/babar/Documents
+  325  nano checkdir.sh
+  326  ./checkdir.sh /home/babar/Documents
+  327  nano checkdir.sh
+  328  ./checkdir.sh /home/babar/Documents
+  329  nano checkdir.sh
+  330  ./checkdir.sh /home/babar/Documents
+  331  nano checkdir.sh
+  332  ./checkdir.sh /home/babar/Documents
+  333  nano checkdir.sh
+  334  ./checkdir.sh /home/babar/Documents
+  335  nano checkdir.sh
+  336  ./checkdir.sh /home/babar/Documents
+  337  nano checkdir.sh
+  338  ./checkdir.sh /home/babar/Documents
+  339  nano checkdir.sh
+  340  ./checkdir.sh /home/babar/Documents
+  341  nano checkdir.sh
+  342  ./checkdir.sh /home/babar/Documents
+  343  nano checkdir.sh
+  344  ./checkdir.sh /home/babar/Documents
+  345  nano checkdir.sh
+  346  ./checkdir.sh /home/babar/Documents
+  347  ./checkdir.sh /home/babar/Document
+  348  nano checkdir.sh
+  349  ./checkdir.sh /home/babar/Document
+  350  nano checkdir.sh
+  351  ./checkdir.sh /home/babar/Document
+  352  nano checkdir.sh
+  353  ./checkdir.sh /home/babar/Document
+  354  nano checkdir.sh
+  355  ./checkdir.sh /home/babar/Document
+  356  nano checkdir.sh
+  357  ./checkdir.sh /home/babar/Document
+  358  nano checkdir.sh
+  359  ./checkdir.sh /home/babar/Document
+  360  ./checkdir.sh /home/babar/Documents
+  361  nano checkdir.sh
+  362  ./checkdir.sh /home/babar/Documents
+  363  ./checkdir.sh /home/babar/Document
+  364  nano checkdir.sh
+  365  ./checkdir.sh /home/babar/Document
+  366  nano checkdir.sh
+  367  ./checkdir.sh /home/babar/Document
+  368  nano checkdir.sh
+  369  ./checkdir.sh /home/babar/Documents
+  370  nano checkdir.sh
+  371  echo "Babar"
+  372  echo "Babar" >log.txt
+  373  echo "Babar" | log.txt
+  374  nano checkdir.sh
+  375  ./checkdir.sh /home/babar/Documents
+  376  cat log.txt
+  377  nano checkdir.sh
+  378  ./checkdir.sh /home/babar/Documents
+  379  cat log.txt
+  380  cat /etc/shadow
+  381  chmod 700 /etc/shadow
+  382  nano checkdir.sh
+  383  ./checkdir.sh /etc/shadow
+  384  ./checkdir.sh /home/babar/Documents/log.txt
+  385  cat log.txt
+  386  neofetch
+  387  sudo apt install neofetch
+  388  clear
+  389  neofetch
+  390  cd Documents
+  391  ./quad.sh 2 6 2
+  392  nano quad.sh
+  393  ls
+  394  cd Documents/Linuxpractice
+  395  tar -xvf pipelines.tar
+  396  chmod +ux read-input.py
+  397  chmod --help
+  398  chmod +ux read-input.py
+  399  chmod read-input.py
+  400  chmod +xu read-input.py
+  401  chmod +ux read-input.py
+  402  chmod +x read-input.py
+  403  chmod +rwx read-input.py
+  404  chmod u=rwx read-input.py
+  405  ls
+  406  cd pipelines
+  407  chmod u=rwx read-input.py
+  408  nums-0-999.txt < ./read-input.py
+  409  ./read-input.py < numa-0-999.txt
+  410  ./read-input.py < nums-0-999.txt
+  411  ./read-input.py < numa-0-999.txt
+  412  ls
+  413  ./read-input.py < numa-0-999
+  414  ./read-input.py < nums-0-999
+  415  python
+  416  python3 read-input.py < numa-0-999
+  417  python3 read-input.py < nums-0-999
+  418  python read-input.py < nums-0-999
+  419  ./read-input.py < nums-0-999
+  420  history
+  421  ls /home >> home.txt
+  422  cat < home.txt > home.txt
+  423  cat < home.txt >> home.txt
+  424  head --help
+  425  tail -3 table
+  426  head -3 table
+  427  head -3 tail -2
+  428  head -3 (tail -2)
+  429  head -3 ( tail -2 )
+  430  head -3 | tail -2 | table
+  431  head -3 | tail -2 table
+  432  tail -2 | head -3 table
+  433  head -3 table | tail -2
+  434  head -3 table | tail -2 > output_of_table.txt
+  435  tr --help
+  436  cat bad-new-line | tr "[:blank]" "[=\n=]"
+  437  cat bad-new-line | tr "[:blank]" "\n"
+  438  cat bad-new-line | tr "[:blank]" "\n" > good-new-line
+  439  cat bad-new-line | tr [:blank] "\n" > good-new-line
+  440  cat bad-new-line | tr [:space] "\n" > good-new-line
+  441  cat bad-new-line | tr [:blank:] "\n" > good-new-line
+  442  cat bad-new-line | tr [:space:] "\n" > good-new-line
+  443  cat bad-new-line | tr [:space:] "" > good-new-line
+  444  cat bad-new-line | tr [:space:] " " > good-new-line
+  445  cat bad-new-line | tr [:space:] "\b"
+  446  cat bad-new-line | tr -s [:space:] "\n"
+  447  cat bad-new-line | tr -s [:space:] "\n\n"
+  448  cat bad-new-line | tr -s [:space:] " "
+  449  cat bad-new-l-s [ "\n"space:] " "
+  450  cat bad-new-line | tr -s  " " "\n"
+  451  cat bad-new-line | tr -s [:space:] "\n"
+  452  cat bad-new-line | tr -s [:space:] "[:space:]"
+  453  cat bad-new-line | tr -s [:space:] [:space:]
+  454  cat bad-new-line | tr -s [:space:] [:blank:]
+  455  cat bad-new-line | tr -s [:blank:] [:space:]
+  456  cat bad-new-line | tr -s [:blank:] "\n"
+  457  cat bad-new-line | tr -s [:blank:] "\r"
+  458  cat bad-new-line | tr -s [:blank:] "\n"
+  459  cat bad-new-line | tr -s [:blank:] " "
+  460  cat bad-new-line | tr -s [:blank:] "\n"
+  461  cat bad-new-line | tr -s [:blank:] ""
+  462  cat bad-new-line | tr -s [:blank:] "\t"
+  463  cat bad-new-line | tr -s [:blank:] "\n"
+  464  cat bad-new-line | tr -s [:blank:] "\v"
+  465  cat bad-new-line | tr -s [:blank:] "b"
+  466  cat bad-new-line | tr [:blank:] "b"
+  467  cat bad-new-line | tr [:blank:] [b]
+  468  cat bad-new-line | tr [:blank:] "m"
+  469  cat bad-new-line | tr -s [:blank:] "m"
+  470  cat bad-new-line | tr -s [:blank:] 'm'
+  471  cat bad-new-line | tr -s [:space:] 'm'
+  472  cat bad-new-line | tr -s [:space:] '\nm\n'
+  473  cat bad-new-line | tr -s [:space:] '\n'
+  474  cat bad-new-line | tr -s [:space:] '\N'
+  475  cat bad-new-line | tr -s [:space:] 'm'
+  476  cat bad-new-line | tr -s [:space:] '\n'
+  477  cat bad-new-line | tr -s [:space:] '\n' > good-new-line
+  478  cat pumpkinsizes
+  479  head --help
+  480  cort --help
+  481  sort --help
+  482  cat --help
+  483  head -n pumpkinsize
+  484  head -n pumpkinsizes
+  485  head -10 pumpkinsizes
+  486  tail -10 pumpkinsizes
+  487  tail -10 pumpkinsizes | sort -k 2
+  488  tail -10 pumpkinsizes | sort -k 22
+  489  tail -10 pumpkinsizes | sort -k 3
+  490  tail -10 pumpkinsizes | sort -k3
+  491  tail -10 pumpkinsizes | sort -k2
+  492  tail -10 pumpkinsizes | tr "|" " "
+  493  tail -10 pumpkinsizes | tr "|" " " | sort -k2
+  494  tail -10 pumpkinsizes | tr "|" " " | sort -k3
+  495  tail -10 pumpkinsizes | tr -s "|" "" | sort -k3
+  496  tail -10 pumpkinsizes | tr -s "|" ""
+  497  tail -10 pumpkinsizes | tr -s "|" [:space:]
+  498  tail -10 pumpkinsizes | tr -d "|"
+  499  tail -10 pumpkinsizes | tr -d "|" | sort -k2
+  500  tail -10 pumpkinsizes | tr -d "|" | sort -k 2n
+  501  tail -10 pumpkinsizes | tr -d "|" | sort -k 2n >> 5_sort.txt
+  502  uniq words-sorted
+  503  uniq words-sorted > unique_words.txt
+  504  uniq -c words-sorted 
+  505  uniq --help
+  506  uniq -c words-sorted | sort -k 1n
+  507  uniq -c words-sorted | sort -k 1n | grep ^1
+  508  uniq -c words-sorted | sort -k 1n | grep \t1
+  509  uniq -c words-sorted | sort -k 1n | grep \s1
+  510  uniq -c words-sorted | sort -k 1n | grep 1
+  511  uniq -c words-sorted | sort -k 1n | grep \s{+}1
+  512  uniq -c words-sorted | sort -k 1n | grep \s{2}1
+  513  uniq -c words-sorted | sort -k 1n | grep \s
+  514  uniq -c words-sorted | sort -k 1n | grep \t
+  515  uniq -c words-sorted | sort -k 1n | grep "\s"
+  516  uniq -c words-sorted | sort -k 1n | grep "\s(.*)"
+  517  uniq -c words-sorted | sort -k 1n | grep "\s(.)"
+  518  uniq -c words-sorted | sort -k 1n | grep "\s1"
+  519  uniq -c words-sorted | sort -k 1n | grep "^\s1"
+  520  uniq -c words-sorted | sort -k 1n | grep "^\s"
+  521  uniq -c words-sorted | sort -k 1n | grep "^\s+"
+  522  uniq -c words-sorted | sort -k 1n | grep "^\s(+)"
+  523  uniq -c words-sorted | sort -k 1n | grep "^\s{+}"
+  524  uniq -c words-sorted | sort -k 1n | grep "^\s+"
+  525  uniq -c words-sorted | sort -k 1n | grep "^\t"
+  526  uniq -c words-sorted | sort -k 1n | grep "^\s"
+  527  uniq -c words-sorted | sort -k 1n | grep "^\s1"
+  528  uniq -c words-sorted | sort -k 1n | grep "^\s"
+  529  uniq -c words-sorted | sort -k 1n | grep "^[\s1]"
+  530  uniq -c words-sorted | sort -k 1n | grep "^[\s]"
+  531  uniq -c words-sorted | sort -k 1n | grep "^[\s]+"
+  532  history >> history.txt
+  533  cd ..
+  534  ls
+  535  history
+  536  cd Documents
+  537  ls
+  538  cd Linuxpractice
+  539  ls
+  540  cd grep-exercises
+  541  clear
+  542  cd numbers
+  543  ls
+  544  cd phone-numbers
+  545  ls
+  546  grep -R exclude=out.gold -P "\d\d\d-\d\d\d-\d\d\d\d"
+  547  grep -R exclude=out.gold -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1
+  548  grep -R exclude=out.gold -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1\
+  549  grep -R exclude=out.gold "\d\d\d-\d\d\d-\d\d\d\d" \numbers1\
+  550  grep -R exclude=out.gold "\d\d\d-\d\d\d-\d\d\d\d" \numbers1
+  551  grep exclude=out.gold "\d\d\d-\d\d\d-\d\d\d\d" \numbers1
+  552  grep "\d\d\d-\d\d\d-\d\d\d\d" \numbers1
+  553  grep "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R
+  554  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R
+  555  clear
+  556  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=out.gold
+  557  clear
+  558  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=\numbers\out.gold
+  559  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=\numbers1\out.gold
+  560  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude="numbers1\out.gold"
+  561  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude="\numbers1\out.gold"
+  562  cat numbers1\out.gold
+  563  cat \numbers1\out.gold
+  564  cat numbers1/out.gold
+  565  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=numbers1/out.gold
+  566  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=/numbers1/out.gold
+  567  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude="/numbers1/out.gold"
+  568  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=out.gold
+  569  cat numbers1/out.gold
+  570  cat numbers1/out.gold.txt
+  571  cat numbers1
+  572  clear
+  573  history
+  574  clear
+  575  cd numbers1
+  576  grep -P "\d\d\d-\d\d\d-\d\d\d\d" \numbers1 -R exclude=out.gold
+  577  grep -P "\d\d\d-\d\d\d-\d\d\d\d" -R exclude=out.gold
+  578  grep -P "\d\d\d-\d\d\d-\d\d\d\d" -R exclude="out.gold"
+  579  grep -P -R exclude=out.gold "\d\d\d-\d\d\d-\d\d\d\d"
+  580  grep -R exclude=out.gold -R"\d\d\d-\d\d\d-\d\d\d\d"
+  581  grep -R exclude=out.gold -R "\d\d\d-\d\d\d-\d\d\d\d"
+  582  grep -R exclude=out.gold -P "\d\d\d-\d\d\d-\d\d\d\d"
+  583  grep -R exclude=out.gold -R "\d\d\d-\d\d\d-\d\d\d\d *"
+  584  grep -R exclude=out.gold -R "\d\d\d-\d\d\d-\d\d\d\d" *
+  585  grep -R exclude=out.gold -P "\d\d\d-\d\d\d-\d\d\d\d"
+  586  grep exclude=out.gold -R -P "\d\d\d-\d\d\d-\d\d\d\d"
+  587  grep -R -P "\d\d\d-\d\d\d-\d\d\d\d"
+  588  grep -R -P "\d\d\d-\d\d\d-\d\d\d\d" exclude=out.gold
+  589  grep -R -P "\d\d\d-\d\d\d-\d\d\d\d" --exclude=out.gold
+  590  cd ..
+  591  clear
+  592  grep -R -P "\d\d\d-\d\d\d-\d\d\d\d" /numbers1/ --exclude=out.gold
+  593  grep -R -P "\d\d\d-\d\d\d-\d\d\d\d" numbers1/ --exclude=out.gold
+  594  grep -R -P "\d\d\d-\d\d\d-\d\d\d\d" numbers1/ --exclude=out.gold > numbers1.output
+  595  grep -R -P "^\d+[-]*" numbers2/ --exclude=out.gold
+  596  grep -R -P "^\d+" numbers2/ --exclude=out.gold
+  597  grep -R -P "\d" numbers2/ --exclude=out.gold
+  598  grep -R -P "\d{3}" numbers2/ --exclude=out.gold
+  599  grep -R -P "\d{3+}" numbers2/ --exclude=out.gold
+  600  grep -R -P "^\d" numbers2/ --exclude=out.gold
+  601  grep -R -P "\d\d\d" numbers2/ --exclude=out.gold
+  602  grep -R -P "\d\d\d\d\d\d\d" numbers2/ --exclude=out.gold
+  603  grep -R -P "\d\d\d\d\d\d\d\d\d" numbers2/ --exclude=out.gold
+  604  grep -R -P "\d\d\d\d\d\d\d\d\d\d" numbers2/ --exclude=out.gold
+  605  grep -R -P "\d{3}+" numbers2/ --exclude=out.gold
+  606  grep -R -P "\d{3}+-*" numbers2/ --exclude=out.gold
+  607  grep -R -P "\d{3}+" numbers2/ --exclude=out.gold
+  608  grep -R -P "\d{3}(-)+" numbers2/ --exclude=out.gold
+  609  grep -R -P "\d{3}(-)+\d{3}-+\d{4}" numbers2/ --exclude=out.gold
+  610  grep -R -P "\d{3}(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold
+  611  grep -R -P "\d{3}(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold > number2.output
+  612  clear
+  613  grep -R -P "(*\d{3})*(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold > number2.output
+  614  grep -R -P "(*\d{3})*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold > number2.output
+  615  grep -R -P "((*)\d{3}()*)(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold > number2.output
+  616  grep -R -P "[(]*\d{3}(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold > number2.output
+  617  grep -R -P "*\d{3}(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold > number2.output
+  618  grep -R -P "\d{3}(-)*\d{3}(-)*\d{4}" numbers2/ --exclude=out.gold > number2.output
+  619  grep -R -P "\(*\d{3}(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  620  grep -R -P "(*\d{3}(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  621  grep -R -P "\\(*d{3}(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  622  grep -R -P "\\(*\d{3}(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  623  grep -R -P "\(*\d{3}(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  624  grep -R -P "(*\d{3}(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  625  grep -R -P "(*\d{3})*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  626  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  627  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold > numbers3.output
+  628  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold |
+  629  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers3/ --exclude=out.gold
+  630  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold 
+  631  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold > numbers4.output
+  632  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold |grep -P "\({2}"
+  633  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold |grep -P "\(.*\("
+  634  grep -R -P "\(*\d{3}\)*(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold |grep -P "\(.*\)"
+  635  grep -R -P "(\(\d{3}\))|(\d{3})(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold 
+  636* grep -R -P "(\(\d{3}\))|[^\(-)*\d{3}(-)*\d{4}" numbers4/ --exclude=out.gold >numbers4.output
+  637  grep -R -P "(\(\d{3}\))|(\d{3})(-)*\d{3}(-)*\d{4}" numbers5/
+  638  grep -R -P "(\(\d{3}\))|(\d{3})(-)*\d{3}(-)*\d{4}" numbers5/ > numbers5.output
+  639  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  640  sudo apt-get install apt-transport-https
+  641  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  642  sudo apt-get update
+  643  sudo apt-get install sublime-text
+  644  clear
+  645  grep -R -P "(\(\d{3}\)\d{3}(-)*\d{4})|(\d{10})|(\d{3}-\d{3}-\d{4})" numbers5/ > numbers5.output
+  646  grep -R -P "(\(\d{3}\)\d{3}(-)*\d{4})|(\d\d\d\d\d\d\d\d\d\d)|(\d{3}-\d{3}-\d{4})" numbers5/ > numbers5.output
+  647  grep -R -P "(\d\d\d\d\d\d\d\d\d\d)" numbers5/
+  648  grep -R -P "(\(\d{3}\)\d{3}(-)*\d{4})|(\d\d\d\d\d\d\d\d\d\d)|(\d{3}-\d{3}-\d{4})" numbers5/ > numbers5.output
+  649  grep -R -P "(\(\d{3}\)\d{3}(-)*\d{4})|(\d\d\d\d\d\d\d\d\d\d)|(\d{3}-\d{3}-\d{4})" numbers5/
+  650  clear
+  651  grep -R -P "(\(\d{3}\)\d{3}(-)*\d{4})|(\d\d\d\d\d\d\d\d\d\d)|(\d{3}-\d{3}-\d{4})" numbers5/ --exclude=out.gold > numbers5.output
+  652  history >> history.txt
