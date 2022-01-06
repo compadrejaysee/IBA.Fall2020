@@ -1,0 +1,116 @@
+    1  history
+    2  ls
+    3  ls usr/bin
+    4  ls /usr/bin
+    5  cd Documents
+    6  vi test.txt
+    7  cat test.txt
+    8  cd ..
+    9  mkdir testdir
+   10  cd testdir
+   11  ls test.txt
+   12  cd ..
+   13  cp Documents/test.txt testdir
+   14  cd testdir
+   15  ls
+   16  rm*
+   17  rm *
+   18  ls
+   19  cd /
+   20  cd Documents
+   21  cd Documents/
+   22  cd..
+   23  cd ..
+   24  cd Documents
+   25  cd /home/rabiya-VirtualBox/Documents/
+   26  cd ..
+   27  cd testdir
+   28  cd /Documents
+   29  ls
+   30  ls /usr/bin
+   31  cd Documents
+   32  history -a
+   33  cd bash
+   34  history
+   35  mv test.txt newtest.txt
+   36  ls
+   37  mkdir test.text
+   38  mkdir test.txt
+   39  rm newtestdir
+   40  touch oldtext.text
+   41  touch oldtest.txt
+   42  ls
+   43  echo "I am textile 1" >> file1.txt
+   44  ls
+   45  cat file2.txt
+   46  history
+   47  chmod u=rwx,g=rx,o=r file2.txt
+   48  ls -l file2.txt
+   49  md5sum file2.txt
+   50  ech "another line" >> file2.txt
+   51  echo "another line" >> file2.txt
+   52  sudo updatedb
+   53  locate -i *chromium*
+   54  df -h
+   55  du -sh Documents/file2.txt
+   56  free -h
+   57  free 
+   58  sudu apt-get install jed
+   59  sudo apt-get install jed
+   60  sudo apt-get update
+   61  sudo apt-get install zip unzip
+   62  tar -tvf filearchive.rar
+   63  tar -tvf filearchive.tar
+   64  uname -a
+   65  hostname
+   66  whoami
+   67  history
+   68  mkdir history
+   69  cd ..
+   70  history >> history_rabiya05261.txt
+   71  ls
+   72  cd home
+   73  ls
+   74  cd ..
+   75  cd usr
+   76  ls
+   77  cd ..
+   78  cd media
+   79  ls
+   80  mkdir history
+   81  cd ..
+   82  cd home
+   83  cd rabiya
+   84  ls
+   85  cd Documents
+   86  mkdir history
+   87  ls
+   88  cd history
+   89  history >> history_rabiya05261.txt
+   90  ls
+   91  cd Documents
+   92  grep -o -i love shakes | wc -l
+   93  ls
+   94  grep -o -i love shakes.txt | wc -l
+   95  grep -o -i thee shakes.txt | wc -l
+   96  grep -o -i to shakes.txt | wc -l
+   97  grep -o -i eternal shakes.txt | wc -l
+   98  bash readingtext.sh
+   99  curl https://stanford.edu/~jainr/cgi-bin/curl-meme.jpg
+  100  sudo apt install curl
+  101  sudo apt update && sudo apt upgrade
+  102  sudo apt install curl
+  103  cd ..
+  104  sudo apt update && sudo apt upgrade
+  105  sudo apt install curl
+  106  cd ..
+  107  sudo apt install curl
+  108  > docker pull curlimages/curl:7.73.0
+  109  cd Documents
+  110  ls
+  111  cd home
+  112  ls
+  113  cd rabiya
+  114  ls
+  115  cd Documents
+  116  history >> historyGrep_05261
