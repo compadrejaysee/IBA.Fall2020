@@ -1,0 +1,210 @@
+    1  man sudo_root
+    2  pwd
+    3  ls
+    4  ls user/bin
+    5  ls usr/bin
+    6  ls /usr/bin
+    7  cd /usr/local/share/fonts
+    8  cd ..
+    9  cd cd /ramsha
+   10  cd .
+   11  cd..
+   12  cd ..
+   13  ls
+   14  cd ..
+   15  cd /ramsha
+   16  cd /root
+   17  cd /home
+   18  ls
+   19  cd /ramsha
+   20  ls
+   21  cd Documents
+   22  vi test.txt
+   23  cat test.txt
+   24  cd ..
+   25  mkdir testdir
+   26  ls
+   27  vi, nano
+   28  cp Documents/test.txt testdir
+   29  cd testdir
+   30  ls
+   31  rm *
+   32  ls
+   33  cd /
+   34  cp -r /home/ramsha/Documents/ /home/ramsha/testdir/
+   35  ls /home/ramsha/testdir
+   36  ls /home/ramsha/testdir/Documents/
+   37  rm -rf /home/ramsha/testdir/
+   38  cd /home/ramsha
+   39  ls
+   40  cd Documents/
+   41  ls
+   42  mv test.txt newtest.txt
+   43  ls
+   44  mkdir testdir
+   45  mv testdir/ newtestdir/
+   46  ls
+   47  rm -rf newtestdir/
+   48  ls
+   49  cd ..
+   50  mkdir testdir
+   51  mv testdir/ newtestdir/
+   52  ls
+   53  rmdir newtestdir
+   54  ls
+   55  cd Documents/
+   56  ls
+   57  touch oldtest.txt
+   58  ls
+   59  rm *
+   60  ls
+   61  echo "I am textfile 1" >> file1.txt
+   62  ls
+   63  ln file1txt file2.txt
+   64  ln file1.txt file2.txt
+   65  ls
+   66  cat file2.txt
+   67  vi file2.txt
+   68  cat file2.txt
+   69  cat file1.txt
+   70  unlink file1.txt
+   71  cate "hello there" >> file2.txt
+   72  cat "hello there" >> file2.txt
+   73  echo "hello there" >> file2.txt
+   74  cat file2.txt
+   75  cat file1.txt
+   76  ls
+   77  sudo passwd
+   78  su
+   79  cd ..
+   80  su
+   81  history
+   82  mkdir history
+   83  chmod 770 history
+   84  history >> history/history1.txt
+   85  cd history/
+   86  ls
+   87  cat history1.txt
+   88  cd Documents/
+   89  head -3 /var/log/syslog
+   90  ls
+   91  cd ..
+   92  head -3 /var/log/syslog
+   93  ls
+   94  cd Documents/
+   95  tail -3 /var/log/syslog
+   96  chmod u=rwx,g=rx,o=r file.txt
+   97  chmod u=rwx,g=rx,o=r file2.txt
+   98  ls -l file2.txt
+   99  chmod 740 file2.txt
+  100  ls -l file2.txt
+  101  chmod 000 file2.txt
+  102  cat file2.txt
+  103  ls -l
+  104  sudo chown root file.txt
+  105  ls s-l
+  106  ls -l
+  107  md5sum file2.txt
+  108  chmod 740 file2.txt
+  109  ls -l
+  110  md5sum file2.txt
+  111  echo "another line" >> file2.txt
+  112  md5sum file2.txt
+  113  sudo updatedb
+  114  cd ..
+  115  sudo updatedb
+  116  sudo apt-get install mlocate
+  117  cd Documents/
+  118  sudo updatedb
+  119  locate -i *chromium*
+  120  locate -i file2
+  121  cd ..
+  122  df -h
+  123  du -sh Documents/file2.txt
+  124  du -sh /opt/google/chrome
+  125  free -h
+  126  sudo apt-get install jed
+  127  sudo apt-get update
+  128  sudo apt-get install zip unzip
+  129  cd Documents/
+  130  rm *
+  131  echo "file1" > file1.txt
+  132  echo "file2" > file2.txt
+  133  echo "file3" > file3.txt
+  134  echo "file4" > file4.txt
+  135  echo "file5" > file5.txt
+  136  ls
+  137  zip -9r filearchive.zip file1.txt file2.txt file3.txt file4.txt file5.txt
+  138  ls
+  139  rm file1.txt file2.txt file3.txt file4.txt file5.txt
+  140  ls
+  141  unzip filearchive.zip
+  142  ls
+  143  rm filearchive.zip
+  144  ls
+  145  tar -cvf filearchive.tar *
+  146  ls
+  147  tar cvzf filearchive1.tar.gz *
+  148  ls
+  149  rm file1.txt file2.txt file3.txt file4.txt file5.txt
+  150  ls
+  151  tar -xvf filearchive.tar
+  152  tar -xvf filearchive1.tar.gz
+  153  ls
+  154  tar -tvf filearchive.tar
+  155  tar -tvf filearchive1.tar.gz
+  156  cd..
+  157  cd ..
+  158  sudo apt-get install net-tools
+  159  ifconfig -a
+  160  uname -a
+  161  hostname
+  162  whoami
+  163  man ifconfig
+  164  ping www.google.com
+  165  cd Documents/
+  166  echo "Line1" >> file.tct
+  167  echo "Line2" >> file.tct
+  168  echo "Line3" >> file.tct
+  169  wc -l file.txt
+  170  echo "Line1" >> file1.tct
+  171  ls
+  172  echo "Line2" >> file1.tct
+  173  echo "Line3" >> file1.tct
+  174  wc -l file1.txt
+  175  cat file1.txt
+  176  echo "Line1" >> file.txt
+  177  echo "Line2" >> file.txt
+  178  echo "Line3" >> file.txt
+  179  wc -l file1.txt
+  180  cat file.txt
+  181  wc file.txt
+  182  cat file.txt
+  183  sudo apt-get install tree
+  184  tree
+  185  echo "hello there" >> file.txt
+  186  cat file.txt
+  187  grep hello file.txt
+  188  grep -nhello file.txt
+  189  echo "Hello" >> file.txt
+  190  cat file.txt
+  191  grep hello file.txt
+  192  grep -i hello file.txt
+  193  cat file.txt | grep hello
+  194  echo "hello good" >> file.txt
+  195  echo "hello bad" >> file.txt
+  196  echo "good bad" >> file.txt
+  197  grep -i ^go file.txt
+  198  grep e$ file.txt
+  199  date
+  200  time
+  201  uotime
+  202  uptime
+  203  ps -a
+  204  ps -a | grep mozilla
+  205  ps -a
+  206  ls
+  207  cd ..
+  208  ls
+  209  cd history/
+  210  history>> history2.txt
